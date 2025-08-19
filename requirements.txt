@@ -1,0 +1,19 @@
+# Install the local package in development mode
+# This will automatically install all dependencies from setup.py
+-e .
+
+# Core dependencies for the medical chatbot
+sentence-transformers==2.2.2
+langchain==0.3.7
+flask==2.3.2
+pypdf==3.17.0
+python-dotenv==1.0.0
+
+# Vector database dependencies
+pinecone==5.4.0
+
+# Langchain components
+langchain-pinecone==0.2.3
+langchain-community==0.3.7
+langchain-openai==0.3.7
+langchain-experimental==0.3.4
