@@ -20,12 +20,28 @@ An end-to-end medical chatbot implementation using LangChain and Pinecone for ve
    pip install -r requirements.txt
    ```
 
-3. Set up environment variables in a `.env` file:
-   ```
-   OPENAI_API_KEY=your_openai_api_key
-   PINECONE_API_KEY=your_pinecone_api_key
-   PINECONE_ENVIRONMENT=your_pinecone_environment
-   ```
+3. Set up environment variables:
+   - Copy the `.env.example` file to `.env`:
+     ```bash
+     cp .env.example .env  # On Windows: copy .env.example .env
+     ```
+   - Replace the placeholder values in the `.env` file with your actual API keys
+
+## API Key Setup
+
+To run the chatbot, you'll need to obtain API keys:
+
+1. **Google Gemini API Key**:
+   - Sign up at [Google AI Studio](https://aistudio.google.com/)
+   - Navigate to API Keys section
+   - Create a new API key
+
+2. **Pinecone API Key**:
+   - Sign up at [Pinecone](https://www.pinecone.io/)
+   - Navigate to API Keys section
+   - Create a new API key
+
+Replace the placeholder values in the `.env` file with your actual API keys.
 
 ## Project Structure
 
