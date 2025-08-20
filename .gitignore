@@ -144,6 +144,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# Virtual environments
+venv*/
+env*/
+.venv*/
+env*/
+venv312/
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -209,3 +216,9 @@ __marimo__/
 
 # User profile directories
 %USERPROFILE%/
+
+# Python executables
+*.exe
+
+# Test files
+test/
